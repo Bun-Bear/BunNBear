@@ -1,0 +1,341 @@
+body {
+	   background-image: url("bg.jpg");
+		 font-family: Arial;
+		
+      }
+	  
+	  
+#main-heading {
+	    text-shadow: 4px 4px grey;
+         }
+.heading{
+        text-align: center;
+		text-shadow: 2px 2px grey;	
+}
+   
+   
+:root{
+	--primary-color: #cdd0d1;
+	
+}
+	
+	
+.container{ 
+              display: grid;
+			   margin: 30px 50px 30px 50px;
+		       border-width: 4px 8px 4px 8px;
+			   border-style: solid;
+		       border-color: var(--primary-color);
+		       border-radius: 10px 0px 10px 0px;
+		       text-align: center;
+			   
+		       grid-gap: 0px;
+		  	   grid-template-columns: repeat(12, 1fr);
+		       grid-template-rows: 150px auto 100px;
+		       grid-template-areas:
+		"h h h h h h h h h h h h "
+		"m m m c c c c c c c c c "
+		"f f f f f f f f f f f f ";	  
+	  }
+	  
+	  
+	  
+.header{
+		       border-bottom: 5px solid var(--primary-color);    
+               background-color:#bdf4ff;
+		       box-sizing: border-box;
+	
+		       grid-area: h;
+		
+	}
+	
+	
+	
+	
+	
+.menu{ 
+	           background-color:#bdf4ff;
+		       text-align: center;
+		       box-sizing: border-box;
+	        border-right: 5px solid var(--primary-color); 
+	          grid-area: m;
+	}
+	
+
+	
+
+	
+.link {
+	 border-bottom: 1px solid gray;
+	 text-align: center;
+	 padding: 20px 20px 20px 5px;
+      }
+.link:hover{
+	
+	 background-color:#d9f9ff;
+	
+}
+a { 
+     text-decoration: none;  
+     }
+	
+a:link {
+		color:black;
+		text-decoration: none;
+	}
+a:visited{
+		color:grey;
+	}
+a:hover{
+		color: #008CBA;
+	}
+a:active{
+		color: #008CBA;
+	}
+	
+	  
+	  
+	  
+	  
+.content{
+		 background-color:#bdf4ff;
+		  text-align: center;
+		  box-sizing: border-box;
+		  padding: 50px 20px 20px 20px;
+		  width: 100%;
+	         height: 100%;
+		 grid-area: c;
+		  overflow:scroll; 
+	}
+
+#bunvid{
+	max-width: 100%;
+	max-height: 100%;
+	border: 5px solid #ddd;
+}
+
+
+
+#example2{
+  background: url(bun.png);
+  background-color: white;
+  background-size: 100px 80px;
+  background-repeat: no-repeat;
+  padding: 20px 20px 20px 20px;
+}
+
+ #gallery { 
+ 
+               padding: 80px 20px 20px 20px;
+	           display: grid;
+                      width: 100%;
+	                  height: 100%;
+		  grid-gap: 10px;
+		  	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-auto-rows: 220px;
+	grid-auto-flow: dense;
+	 box-sizing: border-box;
+	  }
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 5px 3px #008CBA;
+}
+
+
+
+.article {
+	
+	padding: 80px 20px 20px 20px;
+
+	 box-sizing: border-box;
+	
+}
+
+
+	.footer{
+		padding: 5px;
+        border-top: 5px solid var(--primary-color); 
+	    background-color:#bdf4ff;
+		text-align: center;
+	 box-sizing: border-box;
+		grid-area: f;
+	}
+	
+	
+	
+	
+	@media screen and (max-width: 1024px) {
+div p {
+font-size: 18px;
+}
+}
+
+@media screen and (max-width: 768px) {
+div p{
+font-size: 17px;
+}
+}
+
+@media screen and (max-width: 414px) {
+div p {
+font-size: 16px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+#contact-wrap {
+                width: 400px;
+                margin: 0 auto;
+            }
+
+
+          
+            input[type="text"] {
+                width: 100%;
+                padding: 10px;
+                border: solid 2px #c9c9c9;
+                margin: 10px 0px 10px 0px;
+            }
+
+            input[type="text"]:hover {
+                border: solid 2px #008CBA;
+            }
+
+            input[type="text"]:focus {
+                border: solid 2px #008CBA;
+            }
+
+
+
+    
+            input[type="submit"] {
+                padding: 10px;
+                border: solid 2px #c9c9c9;
+              
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            input[type="submit"]:hover {
+                border: solid 2px #008CBA;
+            }
+
+            input[type="submit"]:focus {
+                border: solid 2px #008CBA;
+            }
+
+            input[type="submit"]:active {
+                border: solid 2px #008CBA;
+            }
+
+
+            /*STYLES FOR INPUT CHECKBOX ELEMENT*/
+            input[type="checkbox"]:checked+label {
+                color: #008CBA;
+            }
+	
+#forma{
+	padding: 150px 0 0 0;
+	
+}
+#bdaymonth{
+	
+	margin: 40px 0 0 0;
+}
+#bdaymonth:hover{
+	
+	border: solid 2px #008CBA;
+}
+	 .feed{
+			 padding: 20px 5px 20px 5px;
+		  }
+	
+	
+body {
+                font-size: 1.3em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+          .feed{
+			  font-size: 0.8em;
+		  }
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            h3 {
+                font-size: 1.2em;
+            }
+
+
+            @media screen and (max-width: 1024px) {
+                body {
+                    font-size: 1.2em;
+                }
+				.feed{
+			  font-size: 0.7em;
+		  }
+            }
+
+            @media screen and (max-width: 768px) {
+                body {
+                    font-size: 1.1em;
+                }
+				.feed{
+			  font-size: 0.6em;
+		  }
+            }
+
+            @media screen and (max-width: 414px) {
+                body {
+                    font-size: 1em;
+                }
+					.feed{
+			  font-size: 0.5em;
+		  }
+            }
+			
+			
+	
+	
+	 /* width */
+     ::-webkit-scrollbar {
+      width: 10px;
+     }
+
+     /* Track */
+     ::-webkit-scrollbar-track {
+     background: #bdf4ff; 
+     }
+ 
+     /* Handle */
+     ::-webkit-scrollbar-thumb {
+     background: #cdd0d1; 
+     }
+
+     /* Handle on hover */
+     ::-webkit-scrollbar-thumb:hover {
+     background: #555; 
+     }
